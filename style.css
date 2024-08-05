@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  max-width: 1024px;
+  margin: auto;
 }
 
 .gallery {
@@ -23,4 +25,9 @@ img.big {
 
 img.wide {
   grid-column: span 2 / auto;
+}
+
+img.bigwide {
+  grid-row: span 2 / auto;
+  grid-column: span 4 / auto;
 }
